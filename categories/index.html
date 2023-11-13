@@ -9,7 +9,7 @@
     
     <title>
         
-            关于 |
+            分类 |
         
         雇则优APP
     </title>
@@ -131,111 +131,14 @@
 
                 
 
-                    
-<div class="fade-in-down-animation">
-    <div class="page-template-container border-box">
+                    <div class="fade-in-down-animation">
+    <div class="category-list-container">
         
-        <div class="page-template-content border-box keep-markdown-body">
-            
-                <h1 id="雇则优APP技术服务支持"><a href="#雇则优APP技术服务支持" class="headerlink" title=" 雇则优APP技术服务支持"></a><center> 雇则优APP技术服务支持</h1><h2 id="关于我们"><a href="#关于我们" class="headerlink" title="关于我们"></a>关于我们</h2><ol>
-<li>用户友好的界面：设计简洁，易于操作，无需复杂的培训。</li>
-<li>全面的日常办公功能：包括考勤管理、合同管理、民主程序会议、财务管理、行政管理等功能。</li>
-<li>个性化设置：根据企业的特定需求进行个性化设置，确保软件与企业的业务流程紧密结合。</li>
-<li>数据安全保障：采用高级加密技术，保障企业数据安全。</li>
-<li>7*24 小时在线服务：专业的技术支持团队随时为您提供帮助。</li>
-</ol>
-<h2 id="联系我们"><a href="#联系我们" class="headerlink" title="联系我们"></a>联系我们</h2><p>客服电话：025-52663211<br>官方网站：<a href="https://www.guzeyou.cn/">https://www.guzeyou.cn</a><br>官方邮箱：<a class="link"   href="mailto:&#103;&#x75;&#x7a;&#x65;&#x79;&#x6f;&#117;&#64;&#x6d;&#x61;&#105;&#108;&#x2e;&#103;&#x75;&#122;&#x65;&#121;&#x6f;&#x75;&#x2e;&#x63;&#x6e;" >&#103;&#x75;&#x7a;&#x65;&#x79;&#x6f;&#117;&#64;&#x6d;&#x61;&#105;&#108;&#x2e;&#103;&#x75;&#122;&#x65;&#121;&#x6f;&#x75;&#x2e;&#x63;&#x6e;<i class="fas fa-external-link-alt"></i></a><br>邮寄地址：南京市建邺区白龙江东街9号B6幢三层3-081</p>
-
-            
-        </div>
-        
-            
-
-
-    <div class="comments-container border-box">
-        <div id="comments-anchor" class="comment-area-title border-box">
-            <i class="fas fa-comments"></i>&nbsp;评论
-        </div>
-        
-            
-
-    <div class="valine-container">
-        <script data-pjax src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script>
-        <div id="vcomments"></div>
-        <script data-pjax>
-          function loadValine() {
-
-            const config = {
-              el: '#vcomments',
-              appId: '51bLnh5Gg8Vjiy9l3Bkpz62o-gzGzoHsz',
-              appKey: 'dlgyh33MsdV8SA5dtSOHMDie',
-              meta: ['nick', 'mail', 'link'],
-              avatar: 'wavatar',
-              enableQQ: true,
-              placeholder: '有问题请给我们留言',
-              lang: 'zh-CN'.toLowerCase()
-            }
-
-            if ('') {
-              config.serverURLs = ''
-            }
-
-            new Valine(config)
-
-            function getAuthor(language) {
-              switch (language) {
-                case 'en':
-                  return 'Author'
-                case 'zh-CN':
-                  return '博主'
-                case 'zh-TW':
-                  return '站長'
-                default:
-                  return 'Master'
-              }
-            }
-
-            // Add "Author" identify
-            const getValineDomTimer = setInterval(() => {
-              const vcards = document.querySelectorAll('#vcomments .vcards .vcard')
-              if (vcards.length > 0) {
-                let author = '南京朝则信息技术有限公司'
-
-                if (author) {
-                  for (let vcard of vcards) {
-                    const vnick_dom = vcard.querySelector('.vhead .vnick')
-                    const vnick = vnick_dom.innerHTML
-                    if (vnick === author) {
-                      vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
-                    }
-                  }
-                }
-                clearInterval(getValineDomTimer)
-              } else {
-                clearInterval(getValineDomTimer)
-              }
-            }, 2000)
-          }
-
-          if ('true' === 'true') {
-            const loadValineTimeout = setTimeout(() => {
-              loadValine()
-              clearTimeout(loadValineTimeout)
-            }, 1000)
-          } else {
-            window.addEventListener('DOMContentLoaded', loadValine)
-          }
-        </script>
-    </div>
-
+            <div class="empty-content-box border-box">
+    <i class="fa-solid fas fa-box-open fa-5x"></i>
+</div>
 
         
-    </div>
-
-
-
-
-
         
     </div>
 </div>
@@ -418,6 +321,10 @@
     
 
     <!-- category-page -->
+    
+        
+<script src="/js/category-page.js"></script>
+
     
 
     <!-- links-page -->
